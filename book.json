@@ -1,0 +1,27 @@
+{
+    "plugins": [
+        "sequence", 
+        "flowchart", 
+        "uml", 
+        "mathjax",
+        "-sharing",
+        "hide-published-with", 
+        "numbered-headings-for-web-and-books",
+        "styles-sass-fix"
+    ],
+    "pluginsConfig": {
+        "sequence": {
+            "theme": "simple"
+        },
+        "mathjax": {
+            "forceSVG": true
+        },
+        "theme-default": {
+            "showLevel": false
+        }
+    },
+    "styles": {
+        "website": "./styles/site.scss",
+        "pdf": "./styles/pdf.scss"
+    }
+}
