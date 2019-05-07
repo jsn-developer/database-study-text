@@ -1,3 +1,10 @@
+---
+title: データベース基礎
+subject: MariaDBを用いたデータベース基礎講座
+author: 株式会社ソルクシーズ
+keywords: [データベース, MariaDB]
+---
+
 # データベース基礎(準備編)
 
 ## MariaDBを使ってみよう
@@ -14,7 +21,11 @@ MySQLと互換性があり、Googleにも採用されています。
 下記のページが表示されます。  
 ページ上段のメニューに表示されている「Download」をクリックします。
 
+<!--
 <img src="./shots/database/db_1.png" width="550px">
+-->
+
+![ダウンロードページ](./shots/database/db_1.png)\\{ width=500px }
 
 下記のページが表示されます。  
 ページ中央「Download」をクリックします。
@@ -400,7 +411,7 @@ DECIMAL(5,2) と表現され、-999.99 から+999.99までの表現が可能で�
 
 データベース作成という画面の照合をutf8_general_ciに変更します。
 
-<img src="./shots/database/db_48.png" width="550px">  
+<img src="./shots/database/db_48.png" width="550px">
 これで、マルチバイト文字の認識が可能になります。
 
 ### 日時
@@ -436,3 +447,4 @@ MariaDBでは、TINYINT型を使用することで真偽値を表現すること
 値を1に設定するとtrueと等しくなります。  
 値を0に設定するとfalseと等しくなります。  
 ただし、それ以外の値はtrueともfalseとも等しくなくなります。
+
