@@ -132,7 +132,7 @@ SELECT AVG(社員.給与) AS 平均給与 FROM 社員 WHERE 社員.年齢 => 40 
 
 トランザクションの流れは以下のようになります。
 
-<img src="./shots/database/database_transaction_flow.png" width="420">
+![](./shots/database/database_transaction_flow.png){width=420px}
 
 以下で、各項目の説明をします。
 
