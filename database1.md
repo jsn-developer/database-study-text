@@ -21,53 +21,51 @@ MySQLと互換性があり、Googleにも採用されています。
 下記のページが表示されます。  
 ページ上段のメニューに表示されている「Download」をクリックします。
 
-<!--
-![](./shots/database/db_1.png){ width=500px }
--->
-
-![](./shots/database/db_1.png){ width=500px }
+![](./shots/database/db_1.png){ width=400px }
 
 下記のページが表示されます。  
 ページ中央「Download」をクリックします。
 
-![](./shots/database/db_2.png){ width=500px }
+![](./shots/database/db_2.png){ width=400px }
 
 下記のページが表示されます。  
 ページ中央「Download 10.3.7 Stable Now!」をクリックします。
 
-![](./shots/database/db_3.png){ width=500px }
+![](./shots/database/db_3.png){ width=400px }
 
 下記のページが表示されます。  
 このページでは「OS/CPU」からインストールしたいOSのMariaDBを選び、  
 「File Name」をクリックして実行ファイルをダウンロードします。  
 今回は「Windows x64」、msiのインストーラをダウンロードします。
 
-![](./shots/database/db_4.png){ width=500px }
+![](./shots/database/db_4.png){ width=400px }
 
 下記のページが表示されます。  
 ブラウザによってはファイルに対する操作を要求されるので「保存」を選択します
 
-![](./shots/database/db_5.png){ width=500px }
+![](./shots/database/db_5.png){ width=400px }
 
 ダウンロードしたファイルを実行し、インストール作業を行います。
+
 ### インストール
+
 それでは、インストーラを実行し、インストール作業を行います。
 実行すると初期画面が表示されます。
 「Next」をクリックします。
 
-![](./shots/database/db_6.png){ width=500px }
+![](./shots/database/db_6.png){ width=400px }
 
 利用規約の画面が表示されます。  
 I accept the terms in the License Agreementにチェックをいれます。  
 「Next」をクリックします。
 
-![](./shots/database/db_7.png){ width=500px }
+![](./shots/database/db_7.png){ width=400px }
 
 インストールするモジュール選択の画面が表示されます。  
 今回はこのままインストールを続けます。  
 「Next」をクリックします。
 
-![](./shots/database/db_8.png){ width=500px }
+![](./shots/database/db_8.png){ width=400px }
 
 設定を行う画面が表示されます。  
 rootユーザーに任意のパスワードを入力します。  
@@ -75,57 +73,58 @@ rootユーザーに任意のパスワードを入力します。
 また、Use UTF8 as default server's character setにチェックを入れます。  
 「Next」をクリックします。
 
-![](./shots/database/db_9.png){ width=500px }
+![](./shots/database/db_9.png){ width=400px }
 
 利用するサービスの設定画面が表示されます。  
 今回はこのまま続けます。
 「Next」をクリックします。
 
-![](./shots/database/db_10.png){ width=500px }
+![](./shots/database/db_10.png){ width=400px }
 
 フィードバックプラグインの有効化の確認画面が表示されます。  
 今回はこのままで続けます。  
 「Next」をクリックします。
 
-![](./shots/database/db_11.png){ width=500px }
+![](./shots/database/db_11.png){ width=400px }
 
 インストール開始の確認画面が表示されます。  
 「Install」をクリックします。
 
-![](./shots/database/db_12.png){ width=500px }
+![](./shots/database/db_12.png){ width=400px }
 
 インストール中の画面が表示されます。  
 インストール状況を確認できます。
 
-![](./shots/database/db_13.png){ width=500px }
+![](./shots/database/db_13.png){ width=400px }
 
 インストール完了画面が表示されます。  
 「Finish」をクリックしてインストーラを終了します。
 
-![](./shots/database/db_14.png){ width=500px }
+![](./shots/database/db_14.png){ width=400px }
 
 以上で、インストール作業が完了します。
 
 ### 接続方法
+
 本項では、データベースへ接続する方法について説明します。  
 まず、スタートメニューから「HeidiSQL」をクリックします。
 
-![](./shots/database/db_15.png){ width=500px }
+![](./shots/database/db_15.png){ width=400px }
 
 セッションを作成する画面が表示されます。  
 「新規」をクリックします。
 
-![](./shots/database/db_16.png){ width=500px }
+![](./shots/database/db_16.png){ width=400px }
 
 ネットワーク識別項目にMySQLを選択します。  
 パスワード項目にインストール時に設定したパスワードを入力します。  
 「開く」をクリックします。
 
-![](./shots/database/db_17.png){ width=500px }
+![](./shots/database/db_17.png){ width=400px }
 
 接続に成功すれば、下記の画面が表示されます。
 
-![](./shots/database/db_18.png){ width=500px }
+![](./shots/database/db_18.png){ width=400px }
 
 以上で、データベースとの接続が完了します。
 
@@ -135,7 +134,7 @@ rootユーザーに任意のパスワードを入力します。
 
 本項目では、データベースの基本的用語を下記の画像と合わせて紹介します。
 
-![](./shots/database/database.png){ width=500px }
+![](./shots/database/database.png){ width=400px }
 
 ### データベース
 
@@ -158,22 +157,22 @@ rootユーザーに任意のパスワードを入力します。
 
 データベースへの接続完了後の画面から説明します。
 
-![](./shots/database/db_19.png){ width=500px }
+![](./shots/database/db_19.png){ width=400px }
 
 画面左側で右クリックし、新規作成を選択します。  
 新規作成欄の「データベース」をクリックします。
 
-![](./shots/database/db_20.png){ width=500px }
+![](./shots/database/db_20.png){ width=400px }
 
 作成するデータベース名を入力するポップアップが表示されます。  
 今回は、「testdb」というデータベースを作成します。  
 名前を入力し、「OK」をクリックします。
 
-![](./shots/database/db_21.png){ width=500px }
+![](./shots/database/db_21.png){ width=400px }
 
 作成されたデータベースは画面左側で確認できます。
 
-![](./shots/database/db_22.png){ width=500px }
+![](./shots/database/db_22.png){ width=400px }
 
 ### データベースの削除
 
@@ -181,15 +180,15 @@ rootユーザーに任意のパスワードを入力します。
 今回は、「test」を削除します。
 削除確認のポップアップが表示されます。
 
-![](./shots/database/db_23.png){ width=500px }
+![](./shots/database/db_23.png){ width=400px }
 
 OKをクリックします。
 
-![](./shots/database/db_24.png){ width=500px }
+![](./shots/database/db_24.png){ width=400px }
 
 画面左側に削除されたデータベースが表示されていないことを確認します。
 
-![](./shots/database/db_25.png){ width=500px }
+![](./shots/database/db_25.png){ width=400px }
 
 ### データベースの切り替え
 
@@ -197,7 +196,7 @@ OKをクリックします。
 画面左側のデータベース名をクリックします。  
 また、現在操作対象のデータベースには緑色のチェックが表示されています。
 
-![](./shots/database/db_26.png){ width=500px }
+![](./shots/database/db_26.png){ width=400px }
 
 ## 作業を行うユーザを設定する
 
@@ -208,22 +207,22 @@ OKをクリックします。
 まず、画面上段のメニューユーザ認証と特権の管理と表示されるアイコンをクリックします。  
 ユーザーマネージャーが表示されます。
 
-![](./shots/database/db_27.png){ width=500px }
+![](./shots/database/db_27.png){ width=400px }
 
 この画面ではユーザーの作成及び権限を与えることができます。  
 まず、左側の追加ボタンをクリックします。
 
-![](./shots/database/db_28.png){ width=500px }
+![](./shots/database/db_28.png){ width=400px }
 
 右側に名称未定のアカウント情報入力画面が表示されます。
 
-![](./shots/database/db_29.png){ width=500px }
+![](./shots/database/db_29.png){ width=400px }
 
 今回は、「testuser」というユーザ名で作成します。  
 ホストはデフォルトの状態で続けます。  
 パスワードは任意のものを入力し、確認用にもう一度入力します。
 
-![](./shots/database/db_30.png){ width=500px }
+![](./shots/database/db_30.png){ width=400px }
 
 次に、このユーザに権限を与えます。  
 
@@ -231,53 +230,55 @@ OKをクリックします。
 グローバル特権によってこのユーザはすべてのデータベースに対する操作が可能になりました。  
 保存ボタンをクリックします。
 
-![](./shots/database/db_31.png){ width=500px }
+![](./shots/database/db_31.png){ width=400px }
 
 画面左に「testuser」が作成されたことを確認します。
 
-![](./shots/database/db_32.png){ width=500px }
+![](./shots/database/db_32.png){ width=400px }
 
 ## テーブル作成
+
 それでは、実際にテーブルの作成を行いましょう。  
 画面左のデータベースを右クリックし、新規作成項目からテーブルをクリックします。
 
-![](./shots/database/db_33.png){ width=500px }
+![](./shots/database/db_33.png){ width=400px }
 
 作成するテーブルの内容を入力する画面が表示されます。  
 まず、右画面に表示された基本タブにある名前項目にテーブルの名前を入力しましょう。  
 今回は、「book」と入力します。
 
-![](./shots/database/db_34.png){ width=500px }
+![](./shots/database/db_34.png){ width=400px }
 
 次に、テーブルに行を追加しましょう。  
 画面中央のカラムという項目の「追加」をクリックします。
 
-![](./shots/database/db_34_2.png){ width=500px }
+![](./shots/database/db_34_2.png){ width=400px }
 
 「カラム１」という名前の行が表示されます。
 
-![](./shots/database/db_35.png){ width=500px }
+![](./shots/database/db_35.png){ width=400px }
 
 この行を編集し、データ型や長さ、NOT NULL制約や初期値の設定を行います。  
 今回は、「id」と入力し、データ型をINTにします。長さは10と入力します。  
 その他の項目はデフォルトの状態で続けます。
 
-![](./shots/database/db_36.png){ width=500px }
+![](./shots/database/db_36.png){ width=400px }
 
 同様にして、行の追加を行います。  
 下記の画面のように行を追加します。
 
-![](./shots/database/db_37.png){ width=500px }
+![](./shots/database/db_37.png){ width=400px }
 
 作成したテーブルは、画面右のデータベースタブをクリックするとテーブル一覧を見ることができます。
 
 ### テーブルを操作する
+
 それでは、作成したテーブルの操作を行いましょう。  
 本項目では、以下の操作について紹介します。  
 操作を行うためには、画面右側のクエリータブをクリックします。  
 クエリータブにテーブルを作成するクエリーが残っていた場合は削除します。
 
-![](./shots/database/db_38.png){ width=500px }
+![](./shots/database/db_38.png){ width=400px }
 
 <li>データの挿入  (INSERT INTO文)</li>
 
@@ -307,11 +308,11 @@ VALUES('2','3','太宰治','走れメロス','800');
 
 クエリーの実行は画面上段のSQLを実行と表示されるアイコンをクリックします。
 
-![](./shots/database/db_39.png){ width=500px }
+![](./shots/database/db_39.png){ width=400px }
 
 挿入したデータはデータタブをクリックして確認することができます。
 
-![](./shots/database/db_40.png){ width=500px }
+![](./shots/database/db_40.png){ width=400px }
 
 <li>データの抽出  (SELECT文)</li>
 データの挿入にはSELECT文を実行します。
@@ -325,7 +326,7 @@ Select title From book Where id = 1;
 
 SELECT文の実行結果クエリータブの下に表示されます。
 
-![](./shots/database/db_41.png){ width=500px }
+![](./shots/database/db_41.png){ width=400px }
 
 <li>データの更新  (UPDATE文)</li>
 データの更新にはUPDATE文を実行します。  
@@ -340,11 +341,11 @@ UPDATE テーブル名　SET カラム名 = 更新後の値 WHERE 条件
 Update book Set price = 1300 Where id = 1;
 ```
 
-![](./shots/database/db_42.png){ width=500px }
+![](./shots/database/db_42.png){ width=400px }
 
 実行結果はデータタブから確認できます。
 
-![](./shots/database/db_43.png){ width=500px }
+![](./shots/database/db_43.png){ width=400px }
 
 <li>データの削除  (DELETE文)</li>
 データの削除にはDELETE文を実行します。  
@@ -355,11 +356,11 @@ Update book Set price = 1300 Where id = 1;
 Delete * From book Where id = 2;
 ```
 
-![](./shots/database/db_45.png){ width=500px }
+![](./shots/database/db_45.png){ width=400px }
 
 データが削除されているか、データタブを表示して確認します。
 
-![](./shots/database/db_46.png){ width=500px }
+![](./shots/database/db_46.png){ width=400px }
 
 ### テーブル一覧
 
@@ -371,32 +372,46 @@ Delete * From book Where id = 2;
 このセクションでは、テーブルに登録できる型を紹介します。
 
 ### 数値
+
 データベースに登録できる数値の型は次の２種類が代表的に挙げられます。
+
 #### INTEGER
+
 INTEGER型は整数型とよばれるものです。  
 表現できる数値の範囲は、最小値-2,147,483,648から最大値+2,147,483,647までです。
 
 #### DECIMAL
+
 DECIMAL型は固定小数点型とよばれ,小数を表現することができます。  
 表現できる数値の範囲は精度とスケールによって変化します。  
 例：精度 = 5,スケール=2 の場合  
 DECIMAL(5,2) と表現され、-999.99 から+999.99までの表現が可能です
+
 ### 文字列
+
 文字列を表現するデータ型は以下２種類が挙げられます。
+
 #### CHAR
+
 固定長の文字列型です。値の範囲は0から256までです。  
 長さを固定するために、文字数が長さに満たない場合は空白スペースで長さを満たします。  
 以上のことから、文字列としての長さが一定である型となります。
+
 #### VARCHAR
+
 可変長の文字列型です。値の範囲は0から65536までです。  
 データのサイズが255より小さい場合は1バイトプレフィクスとして格納され  
 より大きい場合は2バイトプレフィクスとして格納されます。
+
 #### CHARとVARCHARの使い分け
+
 文字列として、空白を用いる場合はVARCHARを推奨します。  
 理由としては、CHARが文字列の長さを満たすために空白を文字列に追加するためです。  
 逆に格納する文字列が一定であるならばCHAR型を推奨します。  
 必要十分な長さを用意できることや、長さより大きい値を格納する心配がありません。
+
 #### 日本語(マルチバイト文字)の取り扱い
+
 日本語を扱う際にマルチバイト文字というものに気を付ける必要があります。  
 マルチバイト文字とは1文字を複数バイトで表現する体系です。  
 
@@ -407,16 +422,17 @@ DECIMAL(5,2) と表現され、-999.99 から+999.99までの表現が可能で�
 データベースの文字コードを編集します。  
 画面左のデータベースを右クリックし、編集をクリックします。
 
-![](./shots/database/db_47.png){ width=500px }
+![](./shots/database/db_47.png){ width=400px }
 
 データベース作成という画面の照合をutf8_general_ciに変更します。
 
-![](./shots/database/db_48.png){ width=500px }
+![](./shots/database/db_48.png){ width=400px }
 これで、マルチバイト文字の認識が可能になります。
 
 ### 日時
 
 #### DATE
+
 DATE型は日付を表現できるデータ型です。  
 データは'YYYY-MMMM-DD'形式で表現されます。
 
