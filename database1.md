@@ -1,10 +1,3 @@
----
-title: データベース基礎
-subject: MariaDBを用いたデータベース基礎講座
-author: 株式会社ソルクシーズ
-keywords: [データベース, MariaDB]
----
-
 # データベース基礎(準備編)
 
 ## MariaDBを使ってみよう
