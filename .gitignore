@@ -3,3 +3,6 @@
 *.pdf
 *.tex
 !preanble.tex
+*.aux
+*.toc
+*.log
