@@ -322,12 +322,12 @@ VALUES(カラムごとに挿入するデータ)となります。(行番号1)
 テーブル名の後に記述するテーブルのカラム名を省略することができます。(行番号2)  
 今回は、以下を入力します。
 ``` sql
-INSERT INTO book('id','book_num','author_name','title','price')
+INSERT INTO book(id,book_num,author_name,title,price)
 VALUES('1','2','夏目漱石','吾輩は猫である','1200');
 ```
 同様にさらにデータを挿入します。
 ``` sql
-INSERT INTO book('id','book_num','author_name','title','price')
+INSERT INTO book(id,book_num,author_name,title,price)
 VALUES('2','3','太宰治','走れメロス','800');
 ```
 
@@ -391,7 +391,7 @@ Update book Set price = 1300 Where id = 1;
 今回は以下を入力します。
 
 ```sql
-Delete * From book Where id = 2;
+Delete From book Where id = 2;
 ```
 
 ![](./shots/database/db_45.png){ width=400px }

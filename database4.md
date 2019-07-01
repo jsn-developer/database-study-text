@@ -61,11 +61,12 @@ SELECT ID, NAME, PRICE * 1.08 AS TOTAL FROM テーブル
 ```sql
 SELECT
     ID, NAME, 
-    case PRICE > 10000 then
+    case when PRICE > 10000 then
         '高'
     else then
         '安'
-    end if as TYPE
+    end as TYPE
+FROM テーブル
 ```
 
 ## 集計をする
