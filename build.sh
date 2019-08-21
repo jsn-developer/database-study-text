@@ -1,0 +1,1 @@
+pandoc -o database.pdf -N -f markdown+ignore_line_breaks+footnotes+definition_lists -V CJKmainfont=IPAexGothic -V titlepage=true -H preanble.tex -V toc-own-page=true -F pandoc-crossref --table-of-contents --toc-depth=3 --pdf-engine=lualatex --template eisvogel --highlight-style tango --self-contained README.md database1.md database2.md database3.md database4.md

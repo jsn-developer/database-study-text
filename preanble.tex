@@ -1,0 +1,17 @@
+%
+% preanble.tex
+% PDF出力用プリアンブル
+%
+\paperwidth210mm
+\paperheight297mm
+\usepackage{luatexja}
+\usepackage[ipa]{luatexja-preset}
+\usepackage{amsmath}
+\usepackage{graphicx,color}
+% \usepackage[margin=2cm,truedimen]{geometry}
+\renewcommand\baselinestretch{1.1}
+\parindent=0pt
+\makeatletter
+\def\section{\newpage\@startsection {section}{1}{\z@}{-3.5ex plus -1ex minus -.2ex}{2.3 ex plus .2ex}{\Large\bf}}
+\makeatother
+
